@@ -1,7 +1,7 @@
 
 - name: Copy the war file
   copy:
-    src: /var/lib/jenkins/workspace/sample-java-project/target/*.war
+    src: /home/nag/workspace/sample-deploy-war/target/*.war
     dest: /opt/tomcat/webapps
     remote_src: yes
    
