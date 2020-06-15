@@ -1,7 +1,7 @@
 
 - name: Copy the war file
   copy:
-    src: /home/nag/workspace/sample-deploy-war/target/.*.war
+    src: /home/nag/workspace/sample-deploy-war/*/*.war
     dest: /opt/tomcat/webapps
     remote_src: yes
    
